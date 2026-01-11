@@ -1,0 +1,39 @@
+# IEEE RAS Repository .gitignore
+
+# Ignore video files (common extensions)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.mpeg
+*.mpg
+
+# Ignore large media files if any
+*.gif
+*.jpg
+*.jpeg
+*.png  # Optional: if screenshots are large, but keep if needed for docs
+
+# Ignore Proteus backup or temp files (if any)
+*.bak
+*.DSN
+*.LBK
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if Task-06 has any)
+__pycache__/
+*.pyc
+
+# Ignore compressed archives (if submissions are zipped)
+*.zip
+*.rar
+*.7z
+
+# But track important files like README.md, .pdf tasks, .pdsprj simulations, .pptx, and code .py
+
+# Note: This .gitignore is placed in the root (IEEE-Tasks/) and applies recursively to all subfolders like Task-01, Project-01, etc.
